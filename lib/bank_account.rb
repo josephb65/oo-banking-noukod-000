@@ -8,7 +8,7 @@ def initialize(account_name)
   @status = "open"
 end 
 
-def deposit()
+def deposit(money)
   @balance += money
 end 
 
